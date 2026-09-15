@@ -6,6 +6,12 @@ For a project inquiry, share a redacted input sample, the expected output, appro
 
 [Discuss a project on Contra](https://contra.com/s/l7YZeAqs-data-cleanup-and-file-processing-automation) · [Browse the source examples](https://github.com/codeofwxz/automation-portfolio-demos)
 
+## Open-source contributions
+
+- **Merged — [python-markdown2 #724](https://github.com/trentm/python-markdown2/pull/724):** Reduced repeated full-text scans during Markdown token expansion while preserving nested content. Added regression coverage and a reproducible benchmark.
+- **Merged — [pyexcel #314](https://github.com/pyexcel/pyexcel/pull/314):** Fixed rendering of `timedelta` values in Sheet string output.
+- **Awaiting upstream review — [dataclass-wizard #257](https://github.com/rnag/dataclass-wizard/pull/257):** Added focused environment-name compatibility with regression coverage for lookup precedence, aliases and prefixes. The latest test-only update adds three empty-value precedence cases; all 80 environment tests pass on Python 3.12 and 3.14. This is targeted test coverage, not a full-suite or hosted CI result.
+
 ## Three runnable examples
 
 These are self-directed demonstrations using synthetic data, not paid client projects. Each includes source code, sample files, CLI tests, and documented limits. The linked repository retains the implementation and testing provenance.
